@@ -1,0 +1,166 @@
+*{
+   
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.content{
+    height: auto;
+    width: 100%;
+   
+   
+}
+:root{
+    --primary-color:rgb(13, 86, 134);
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,300;1,400;1,500&display=swap');
+.card{
+  margin:120px auto;
+    width: 320px;
+    height: auto;
+    background-color:rgb(192, 209, 223);
+    border-radius: 15px ;
+    /* opacity: 0.6; */
+    position: relative;
+    padding: 20px;
+}
+.card img{
+    padding-top: 20px;
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+   
+    /* padding: 10px 15px; */
+    margin-right: -15px;
+
+}
+.card .cac-icon {
+    font-size: 20px;
+   
+
+    position: absolute;
+   left: 30px;
+   top: 20px;
+}
+.cac-icon .gio-hang{
+  padding-left: 220px ;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+ padding-top: 20px;
+}
+.card-title{
+    color: var(--primary-color);
+}
+.card-active{
+   margin:30px 37px;
+}
+button{
+    background: var(--primary-color);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+cursor: pointer;
+}
+.nhap-lai{
+    margin-left: 35px;
+
+}
+
+.year,.card-color {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.h3{
+    margin-top: 10px;
+}
+.year span{
+   
+    font-size: 12px;
+    padding: 5px 8px;
+    background: black;
+    border-radius: 50px;
+    color: blanchedalmond;
+}
+.card-color{
+    margin-top: 10px;
+   
+}
+.color {
+    width: 20px;
+    height: 20px;
+  margin-left: 10px;
+    border-radius: 50px;
+  
+
+}
+.card-color-green{
+    background: cadetblue;
+   
+  
+}
+.card-color-red{
+    background: red;
+}
+.card-color-black{
+    background: blue;
+}
+.card-color{
+    justify-content: flex-start;
+    display: flex;
+}
+.cac-img{
+    display: flex;
+  
+    justify-content: space-evenly;
+
+}
+.khoi-anh{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+    
+}
+.ten{
+    padding-top: 20px;
+}
+.img1 img{
+    width: 320px;
+    height: 300px;
+   
+}
+.img1{
+    transform: scale(1);
+    transition: all 0.5s;
+        
+
+}
+.img1 :hover {
+    
+        transform: scale(1.1);
+        opacity: 0.5;
+        
+}
+
+.cac-text{
+    display: flex;
+    line-height: 30px;
+    
+}
+.cac-text .giam{
+    color: red;
+
+}
+.cac-text .cu{
+    margin-left: 25px;
+    text-decoration: line-through;
+    opacity: 0.6;
+   
+}
